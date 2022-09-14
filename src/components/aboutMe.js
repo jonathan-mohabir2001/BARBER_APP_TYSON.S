@@ -1,11 +1,17 @@
 import React from "react";
-import Video from "../video/video.mp4"; 
+
 
 
 function aboutMe(){
 return(
   
-  <div>
+  <div className="home-background">
+
+    <h3>SERVICES</h3>
+
+
+    
+
 
 
   </div>

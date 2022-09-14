@@ -1,18 +1,14 @@
-import React from "react";
-
-function gallery(){
-
-
+import React from 'react';
+import CustomerPics from './CustomerPics';
+function gallery() {
   return (
-
-    <div>
-      Base plate set for gallery page. 
+    <div
+      className="gallery-page-background"
+      style={{ backgroundColor: 'lightblue' }}
+    >
+      <CustomerPics />
     </div>
-
-
-  )
-
-
+  );
 }
 
-export default gallery; 
+export default gallery;
