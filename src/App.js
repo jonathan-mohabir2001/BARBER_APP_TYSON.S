@@ -4,6 +4,9 @@ import TopNav from './components/TopNav';
 import { Routes, Route,Link,} from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Gallery from './components/Gallery';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/react-bootstrap/dist/react-bootstrap';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import ContactForm from './components/ContactForm';
 import './App.css';
 
@@ -18,7 +21,7 @@ function App() {
     <Routes>
       <Route path='/home' element={<AboutMe/>}> </Route>
       <Route path='/photogallery' element={<Gallery/>}></Route>
-      <Route path='/appoitments' element={<ContactForm/>}></Route>
+      <Route path='/contact' element={<ContactForm/>}></Route>
     </Routes>
 
     

@@ -1,14 +1,20 @@
 import React from "react";
+import Video from "../video/video.mp4"; 
+
 
 function aboutMe(){
-return
-(
-
-
+return(
+  
   <div>
-    Base plate page for about me page. 
+
+
   </div>
-);
+
+
+
+
+)
+
 }
 
 
