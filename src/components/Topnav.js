@@ -1,19 +1,15 @@
-import React from "react";
-import {Navbar,Nav} from 'react-bootstrap'
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 
-import {Routes, Route, Link} from 'react-router-dom'; 
-import {Container} from "react-bootstrap";
+import { Routes, Route, Link } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 
-function Topnav(){
-
-  return(
-
+function Topnav() {
+  return (
     <div>
-      <Navbar bg="dark" expand="lg" variant="dark" className='top-nav-bar'>
+      <Navbar bg="dark" expand="lg" variant="dark" className="top-nav-bar">
         <Container>
-          <Navbar.Brand as={Link} to="/" className="nav-main-title">
-            TyDaBarber
-          </Navbar.Brand>
+ 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
@@ -23,7 +19,7 @@ function Topnav(){
             </Nav>
 
             <Nav>
-              <Nav.Link as={Link} to="/gallery" className="nav-title">
+              <Nav.Link as={Link} to="/photogallery" className="nav-title">
                 Photo Gallery
               </Nav.Link>
             </Nav>
@@ -40,10 +36,4 @@ function Topnav(){
   );
 }
 
-export default Topnav; 
-
-
-  
-  
-
-
+export default Topnav;
