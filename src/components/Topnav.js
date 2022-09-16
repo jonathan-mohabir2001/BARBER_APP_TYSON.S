@@ -10,7 +10,7 @@ function Topnav() {
       <Navbar bg="dark" expand="lg" variant="dark" className='top-nav-bar'>
         <Container>
           <Navbar.Brand as={Link} to="/" className="nav-main-title">
-            TyDaBarber
+           Barber Booking App
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

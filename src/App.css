@@ -28,10 +28,24 @@
   color: #61dafb;
 }
 
-.home-background{
-  color:#000000	; 
+.service-sub-title{
+  position:fixed; 
+  
 }
 
+.service-summary{
+
+  margin:auto; 
+  width:75%;
+  padding:50px; 
+  top:50%; 
+  background-color: black; 
+  overflow-x: hidden; 
+  overflow-y:auto; 
+  text-align: justify;
+
+
+}
 
 
 @keyframes App-logo-spin {
